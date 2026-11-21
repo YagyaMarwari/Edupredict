@@ -1,0 +1,251 @@
+roll_no,student_name,subject,midterm,G1,G2,studytime,absences,failures,internet,schoolsup,Medu,Fedu,famsup,higher,traveltime
+101,Yagya,Statistical Machine Learning,19,19,19,4,1,0,1,0,4,4,1,1,1
+102,Aman,Statistical Machine Learning,15,15,15,3,2,0,1,0,4,3,1,1,1
+103,Adiya,Statistical Machine Learning,17,17,17,4,1,0,1,0,4,4,1,1,1
+104,Aarav Sharma,Statistical Machine Learning,16,16,16,3,2,0,1,0,4,3,1,1,1
+105,Priya Patel,Statistical Machine Learning,7,7,7,1,12,1,1,1,2,1,1,0,4
+106,Rohan Verma,Statistical Machine Learning,17,17,17,4,1,0,1,0,4,4,1,1,1
+107,Ananya Singh,Statistical Machine Learning,14,14,14,2,4,0,1,0,3,2,0,1,1
+108,Vikram Malhotra,Statistical Machine Learning,4,4,4,1,18,2,0,1,1,1,0,1,2
+109,Sneha Reddy,Statistical Machine Learning,16,16,16,3,3,0,1,0,4,4,1,1,1
+110,Kabir Mehta,Statistical Machine Learning,11,11,11,2,6,0,1,0,2,2,1,0,2
+111,Diya Sengupta,Statistical Machine Learning,7,7,7,1,14,1,1,1,1,0,1,0,2
+112,Aditya Joshi,Statistical Machine Learning,19,19,19,4,0,0,1,0,4,4,1,1,1
+113,Rhea Nair,Statistical Machine Learning,13,13,13,2,5,0,1,0,4,4,1,1,1
+114,Sameer Khan,Statistical Machine Learning,5,5,5,1,22,3,0,1,1,1,0,0,2
+115,Tanvi Deshmukh,Statistical Machine Learning,14,14,14,3,3,0,1,0,4,2,1,1,1
+116,Arjun Kapoor,Statistical Machine Learning,17,17,17,3,2,0,1,0,4,4,1,1,1
+117,Ishaan Gupta,Statistical Machine Learning,13,13,13,3,4,0,1,0,3,2,1,1,2
+118,Meera Iyer,Statistical Machine Learning,15,15,15,3,3,0,1,0,4,4,1,1,2
+119,Siddharth Rao,Statistical Machine Learning,12,12,12,2,6,0,1,0,2,2,0,1,1
+120,Pooja Choudhury,Statistical Machine Learning,10,10,10,2,7,0,1,0,2,1,1,1,1
+121,Nikhil Bansal,Statistical Machine Learning,13,13,13,2,4,0,1,0,3,2,1,1,1
+122,Riya Sen,Statistical Machine Learning,13,13,13,2,5,0,1,0,4,4,0,1,1
+123,Kunal Bhatia,Statistical Machine Learning,8,8,8,1,11,1,1,0,2,1,1,1,2
+124,Neha Trivedi,Statistical Machine Learning,16,16,16,4,2,0,1,0,4,4,1,1,1
+125,Varun Saxena,Statistical Machine Learning,14,14,14,2,4,0,1,0,2,4,1,1,1
+126,Shreya Das,Statistical Machine Learning,14,14,14,3,2,0,1,0,2,3,1,1,2
+127,Aryan Mishra,Statistical Machine Learning,14,14,14,3,3,0,1,0,3,4,1,1,1
+128,Kriti Sanon,Statistical Machine Learning,11,11,11,2,6,0,1,0,2,2,1,1,2
+129,Harsh Vardhan,Statistical Machine Learning,6,6,6,1,19,2,0,1,1,1,0,0,2
+130,Simran Kaur,Statistical Machine Learning,16,16,16,3,1,0,1,0,4,4,1,1,1
+131,Devansh Roy,Statistical Machine Learning,14,14,14,2,5,0,1,0,3,3,1,1,1
+132,Anika Paul,Statistical Machine Learning,13,13,13,3,3,0,1,0,3,4,1,1,1
+133,Gaurav Tiwari,Statistical Machine Learning,10,10,10,2,8,0,1,0,1,1,1,1,2
+134,Divya Nambiar,Statistical Machine Learning,19,19,19,4,1,0,1,0,4,4,1,1,1
+135,Ayush Khurana,Statistical Machine Learning,11,11,11,2,6,0,1,0,3,1,1,1,3
+136,Trisha Bose,Statistical Machine Learning,8,8,8,1,13,1,1,1,2,1,0,0,3
+137,Mayank Agarwal,Statistical Machine Learning,15,15,15,3,4,0,1,0,4,4,0,1,1
+138,Pallavi Kulkarni,Statistical Machine Learning,14,14,14,3,2,0,1,0,3,2,0,1,1
+139,Abhinav Pandey,Statistical Machine Learning,11,11,11,2,5,0,1,0,3,2,1,1,1
+140,Sonali Jain,Statistical Machine Learning,16,16,16,3,2,0,1,0,4,4,1,1,1
+141,Rohit Chawla,Statistical Machine Learning,10,10,10,2,7,0,1,0,3,1,0,1,1
+142,Nandini Pillai,Statistical Machine Learning,17,17,17,4,1,0,1,0,4,3,1,1,1
+143,Prateek Singhania,Statistical Machine Learning,19,19,19,4,1,0,1,0,4,4,1,1,1
+144,Lavanya Swaminathan,Statistical Machine Learning,13,13,13,3,3,0,1,0,3,2,1,1,2
+145,Mohit Yadav,Statistical Machine Learning,6,6,6,1,17,2,0,1,0,0,0,1,2
+146,Bhavna Mittal,Statistical Machine Learning,14,14,14,2,4,0,1,0,3,4,1,1,2
+147,Tarun Chopra,Statistical Machine Learning,10,10,10,2,5,0,1,0,2,2,1,1,1
+148,Rashmi Nair,Statistical Machine Learning,14,14,14,3,2,0,1,0,4,3,0,1,1
+149,Utkarsh Srivastava,Statistical Machine Learning,16,16,16,3,3,0,1,0,4,4,1,1,1
+150,Alok Kashyap,Statistical Machine Learning,9,9,9,2,8,0,1,0,1,0,0,0,3
+101,Yagya,Probability and Statistics,18,18,18,4,1,0,1,0,4,4,1,1,1
+102,Aman,Probability and Statistics,17,17,17,3,2,0,1,0,4,3,1,1,1
+103,Adiya,Probability and Statistics,16,16,16,4,1,0,1,0,4,4,1,1,1
+104,Aarav Sharma,Probability and Statistics,15,15,15,3,2,0,1,0,4,2,1,1,1
+105,Priya Patel,Probability and Statistics,9,9,9,1,12,1,1,1,2,2,0,1,4
+106,Rohan Verma,Probability and Statistics,16,16,16,4,1,0,1,0,4,4,1,1,1
+107,Ananya Singh,Probability and Statistics,13,13,13,2,4,0,1,0,3,2,0,1,2
+108,Vikram Malhotra,Probability and Statistics,6,6,6,1,18,2,0,1,2,1,0,0,4
+109,Sneha Reddy,Probability and Statistics,15,15,15,3,3,0,1,0,4,4,1,1,1
+110,Kabir Mehta,Probability and Statistics,10,10,10,2,6,0,1,0,1,1,1,1,1
+111,Diya Sengupta,Probability and Statistics,9,9,9,1,14,1,1,1,0,1,0,0,3
+112,Aditya Joshi,Probability and Statistics,18,18,18,4,0,0,1,0,4,4,1,1,1
+113,Rhea Nair,Probability and Statistics,12,12,12,2,5,0,1,0,3,2,1,1,1
+114,Sameer Khan,Probability and Statistics,7,7,7,1,22,3,0,1,1,1,1,1,3
+115,Tanvi Deshmukh,Probability and Statistics,13,13,13,3,3,0,1,0,3,2,1,1,1
+116,Arjun Kapoor,Probability and Statistics,16,16,16,3,2,0,1,0,4,4,1,1,1
+117,Ishaan Gupta,Probability and Statistics,15,15,15,3,4,0,1,0,4,3,1,1,1
+118,Meera Iyer,Probability and Statistics,14,14,14,3,3,0,1,0,4,3,1,1,1
+119,Siddharth Rao,Probability and Statistics,11,11,11,2,6,0,1,0,1,2,0,0,2
+120,Pooja Choudhury,Probability and Statistics,12,12,12,2,7,0,1,0,2,4,1,1,2
+121,Nikhil Bansal,Probability and Statistics,12,12,12,2,4,0,1,0,3,2,1,1,1
+122,Riya Sen,Probability and Statistics,12,12,12,2,5,0,1,0,4,4,1,1,1
+123,Kunal Bhatia,Probability and Statistics,10,10,10,1,11,1,1,0,2,3,0,0,2
+124,Neha Trivedi,Probability and Statistics,15,15,15,4,2,0,1,0,4,3,1,1,1
+125,Varun Saxena,Probability and Statistics,13,13,13,2,4,0,1,0,3,4,0,1,1
+126,Shreya Das,Probability and Statistics,16,16,16,3,2,0,1,0,4,4,1,1,1
+127,Aryan Mishra,Probability and Statistics,13,13,13,3,3,0,1,0,4,3,1,1,1
+128,Kriti Sanon,Probability and Statistics,10,10,10,2,6,0,1,0,1,3,1,1,3
+129,Harsh Vardhan,Probability and Statistics,8,8,8,1,19,2,0,1,1,1,1,1,4
+130,Simran Kaur,Probability and Statistics,15,15,15,3,1,0,1,0,4,4,1,1,1
+131,Devansh Roy,Probability and Statistics,13,13,13,2,5,0,1,0,2,3,0,1,1
+132,Anika Paul,Probability and Statistics,15,15,15,3,3,0,1,0,3,2,1,1,1
+133,Gaurav Tiwari,Probability and Statistics,9,9,9,2,8,0,1,0,0,2,0,0,3
+134,Divya Nambiar,Probability and Statistics,18,18,18,4,1,0,1,0,4,4,1,1,1
+135,Ayush Khurana,Probability and Statistics,13,13,13,2,6,0,1,0,3,3,0,1,1
+136,Trisha Bose,Probability and Statistics,7,7,7,1,13,1,1,1,1,1,1,1,4
+137,Mayank Agarwal,Probability and Statistics,14,14,14,3,4,0,1,0,3,3,1,1,1
+138,Pallavi Kulkarni,Probability and Statistics,16,16,16,3,2,0,1,0,4,4,1,1,1
+139,Abhinav Pandey,Probability and Statistics,10,10,10,2,5,0,1,0,1,1,1,1,2
+140,Sonali Jain,Probability and Statistics,15,15,15,3,2,0,1,0,3,2,0,1,1
+141,Rohit Chawla,Probability and Statistics,12,12,12,2,7,0,1,0,3,4,1,1,1
+142,Nandini Pillai,Probability and Statistics,16,16,16,4,1,0,1,0,4,4,1,1,1
+143,Prateek Singhania,Probability and Statistics,18,18,18,4,1,0,1,0,4,4,1,1,1
+144,Lavanya Swaminathan,Probability and Statistics,15,15,15,3,3,0,1,0,3,3,1,1,1
+145,Mohit Yadav,Probability and Statistics,5,5,5,1,17,2,0,1,1,1,0,0,2
+146,Bhavna Mittal,Probability and Statistics,13,13,13,2,4,0,1,0,2,4,1,1,1
+147,Tarun Chopra,Probability and Statistics,12,12,12,2,5,0,1,0,2,3,1,1,1
+148,Rashmi Nair,Probability and Statistics,13,13,13,3,2,0,1,0,3,3,1,1,1
+149,Utkarsh Srivastava,Probability and Statistics,15,15,15,3,3,0,1,0,2,3,1,1,1
+150,Alok Kashyap,Probability and Statistics,11,11,11,2,8,0,1,0,3,2,0,0,2
+101,Yagya,Database Management Systems,17,17,17,4,1,0,1,0,4,4,1,1,1
+102,Aman,Database Management Systems,16,16,16,3,2,0,1,0,4,3,1,1,1
+103,Adiya,Database Management Systems,18,18,18,4,1,0,1,0,4,4,1,1,1
+104,Aarav Sharma,Database Management Systems,14,14,14,3,2,0,1,0,3,3,1,1,1
+105,Priya Patel,Database Management Systems,8,8,8,1,12,1,1,1,1,2,0,1,4
+106,Rohan Verma,Database Management Systems,18,18,18,4,1,0,1,0,4,3,1,1,1
+107,Ananya Singh,Database Management Systems,12,12,12,2,4,0,1,0,2,2,0,1,1
+108,Vikram Malhotra,Database Management Systems,5,5,5,1,18,2,0,1,1,0,0,1,2
+109,Sneha Reddy,Database Management Systems,17,17,17,3,3,0,1,0,4,4,1,1,1
+110,Kabir Mehta,Database Management Systems,9,9,9,2,6,0,1,0,0,0,1,1,4
+111,Diya Sengupta,Database Management Systems,8,8,8,1,14,1,1,1,2,2,0,0,4
+112,Aditya Joshi,Database Management Systems,20,20,20,4,0,0,1,0,4,4,1,1,1
+113,Rhea Nair,Database Management Systems,11,11,11,2,5,0,1,0,3,2,0,1,1
+114,Sameer Khan,Database Management Systems,6,6,6,1,22,3,0,1,2,2,0,1,4
+115,Tanvi Deshmukh,Database Management Systems,15,15,15,3,3,0,1,0,2,4,1,1,2
+116,Arjun Kapoor,Database Management Systems,15,15,15,3,2,0,1,0,3,4,1,1,1
+117,Ishaan Gupta,Database Management Systems,14,14,14,3,4,0,1,0,4,2,1,1,2
+118,Meera Iyer,Database Management Systems,16,16,16,3,3,0,1,0,4,4,1,1,1
+119,Siddharth Rao,Database Management Systems,10,10,10,2,6,0,1,0,2,2,0,1,1
+120,Pooja Choudhury,Database Management Systems,11,11,11,2,7,0,1,0,2,2,1,1,1
+121,Nikhil Bansal,Database Management Systems,14,14,14,2,4,0,1,0,3,2,1,1,1
+122,Riya Sen,Database Management Systems,11,11,11,2,5,0,1,0,3,2,0,0,2
+123,Kunal Bhatia,Database Management Systems,9,9,9,1,11,1,1,0,1,0,0,1,2
+124,Neha Trivedi,Database Management Systems,17,17,17,4,2,0,1,0,4,4,1,1,1
+125,Varun Saxena,Database Management Systems,12,12,12,2,4,0,1,0,4,2,0,1,2
+126,Shreya Das,Database Management Systems,15,15,15,3,2,0,1,0,3,3,1,1,2
+127,Aryan Mishra,Database Management Systems,15,15,15,3,3,0,1,0,4,4,1,1,1
+128,Kriti Sanon,Database Management Systems,9,9,9,2,6,0,1,0,2,1,0,1,2
+129,Harsh Vardhan,Database Management Systems,7,7,7,1,19,2,0,1,1,0,0,0,2
+130,Simran Kaur,Database Management Systems,17,17,17,3,1,0,1,0,4,3,1,1,1
+131,Devansh Roy,Database Management Systems,12,12,12,2,5,0,1,0,3,4,1,1,2
+132,Anika Paul,Database Management Systems,14,14,14,3,3,0,1,0,3,2,1,1,1
+133,Gaurav Tiwari,Database Management Systems,11,11,11,2,8,0,1,0,3,1,1,0,3
+134,Divya Nambiar,Database Management Systems,17,17,17,4,1,0,1,0,4,4,1,1,1
+135,Ayush Khurana,Database Management Systems,12,12,12,2,6,0,1,0,4,2,1,1,2
+136,Trisha Bose,Database Management Systems,9,9,9,1,13,1,1,1,1,1,1,0,3
+137,Mayank Agarwal,Database Management Systems,13,13,13,3,4,0,1,0,3,4,0,1,1
+138,Pallavi Kulkarni,Database Management Systems,15,15,15,3,2,0,1,0,4,4,1,1,1
+139,Abhinav Pandey,Database Management Systems,12,12,12,2,5,0,1,0,3,2,1,1,1
+140,Sonali Jain,Database Management Systems,14,14,14,3,2,0,1,0,3,2,1,1,2
+141,Rohit Chawla,Database Management Systems,11,11,11,2,7,0,1,0,2,2,0,1,2
+142,Nandini Pillai,Database Management Systems,18,18,18,4,1,0,1,0,4,3,1,1,1
+143,Prateek Singhania,Database Management Systems,17,17,17,4,1,0,1,0,4,4,1,1,1
+144,Lavanya Swaminathan,Database Management Systems,14,14,14,3,3,0,1,0,4,4,1,1,1
+145,Mohit Yadav,Database Management Systems,7,7,7,1,17,2,0,1,1,2,1,0,2
+146,Bhavna Mittal,Database Management Systems,12,12,12,2,4,0,1,0,3,4,1,1,1
+147,Tarun Chopra,Database Management Systems,11,11,11,2,5,0,1,0,2,2,1,1,3
+148,Rashmi Nair,Database Management Systems,15,15,15,3,2,0,1,0,3,3,1,1,1
+149,Utkarsh Srivastava,Database Management Systems,14,14,14,3,3,0,1,0,4,4,1,1,2
+150,Alok Kashyap,Database Management Systems,10,10,10,2,8,0,1,0,2,2,1,1,1
+101,Yagya,Microprocessors,19,19,19,4,1,0,1,0,4,4,1,1,1
+102,Aman,Microprocessors,15,15,15,3,2,0,1,0,4,3,1,1,1
+103,Adiya,Microprocessors,17,17,17,4,1,0,1,0,4,4,1,1,1
+104,Aarav Sharma,Microprocessors,16,16,16,3,2,0,1,0,4,4,1,1,1
+105,Priya Patel,Microprocessors,7,7,7,1,12,1,1,1,1,0,1,1,4
+106,Rohan Verma,Microprocessors,17,17,17,4,1,0,1,0,4,4,1,1,1
+107,Ananya Singh,Microprocessors,14,14,14,2,4,0,1,0,4,3,1,1,2
+108,Vikram Malhotra,Microprocessors,4,4,4,1,18,2,0,1,1,0,0,1,3
+109,Sneha Reddy,Microprocessors,16,16,16,3,3,0,1,0,4,4,1,1,1
+110,Kabir Mehta,Microprocessors,11,11,11,2,6,0,1,0,1,1,0,1,2
+111,Diya Sengupta,Microprocessors,7,7,7,1,14,1,1,1,1,1,1,0,3
+112,Aditya Joshi,Microprocessors,19,19,19,4,0,0,1,0,4,4,1,1,1
+113,Rhea Nair,Microprocessors,13,13,13,2,5,0,1,0,3,3,1,1,2
+114,Sameer Khan,Microprocessors,5,5,5,1,22,3,0,1,0,2,0,0,3
+115,Tanvi Deshmukh,Microprocessors,14,14,14,3,3,0,1,0,4,3,1,1,1
+116,Arjun Kapoor,Microprocessors,17,17,17,3,2,0,1,0,4,4,1,1,1
+117,Ishaan Gupta,Microprocessors,13,13,13,3,4,0,1,0,2,2,0,1,1
+118,Meera Iyer,Microprocessors,15,15,15,3,3,0,1,0,2,3,0,1,1
+119,Siddharth Rao,Microprocessors,12,12,12,2,6,0,1,0,4,3,1,1,1
+120,Pooja Choudhury,Microprocessors,10,10,10,2,7,0,1,0,1,1,0,1,1
+121,Nikhil Bansal,Microprocessors,13,13,13,2,4,0,1,0,2,2,1,1,1
+122,Riya Sen,Microprocessors,13,13,13,2,5,0,1,0,3,3,1,1,1
+123,Kunal Bhatia,Microprocessors,8,8,8,1,11,1,1,0,2,1,0,1,4
+124,Neha Trivedi,Microprocessors,16,16,16,4,2,0,1,0,4,3,1,1,1
+125,Varun Saxena,Microprocessors,14,14,14,2,4,0,1,0,3,4,1,1,1
+126,Shreya Das,Microprocessors,14,14,14,3,2,0,1,0,3,3,1,1,1
+127,Aryan Mishra,Microprocessors,14,14,14,3,3,0,1,0,3,3,1,1,1
+128,Kriti Sanon,Microprocessors,11,11,11,2,6,0,1,0,1,2,1,1,2
+129,Harsh Vardhan,Microprocessors,6,6,6,1,19,2,0,1,0,1,0,0,2
+130,Simran Kaur,Microprocessors,16,16,16,3,1,0,1,0,4,4,1,1,1
+131,Devansh Roy,Microprocessors,14,14,14,2,5,0,1,0,2,3,1,1,1
+132,Anika Paul,Microprocessors,13,13,13,3,3,0,1,0,2,4,1,1,1
+133,Gaurav Tiwari,Microprocessors,10,10,10,2,8,0,1,0,2,2,0,1,2
+134,Divya Nambiar,Microprocessors,19,19,19,4,1,0,1,0,4,4,1,1,1
+135,Ayush Khurana,Microprocessors,11,11,11,2,6,0,1,0,2,1,0,1,2
+136,Trisha Bose,Microprocessors,8,8,8,1,13,1,1,1,1,1,1,1,2
+137,Mayank Agarwal,Microprocessors,15,15,15,3,4,0,1,0,2,2,1,1,1
+138,Pallavi Kulkarni,Microprocessors,14,14,14,3,2,0,1,0,2,2,0,1,2
+139,Abhinav Pandey,Microprocessors,11,11,11,2,5,0,1,0,1,2,0,1,1
+140,Sonali Jain,Microprocessors,16,16,16,3,2,0,1,0,4,4,1,1,1
+141,Rohit Chawla,Microprocessors,10,10,10,2,7,0,1,0,3,3,1,1,1
+142,Nandini Pillai,Microprocessors,17,17,17,4,1,0,1,0,4,4,1,1,1
+143,Prateek Singhania,Microprocessors,19,19,19,4,1,0,1,0,4,4,1,1,1
+144,Lavanya Swaminathan,Microprocessors,13,13,13,3,3,0,1,0,3,3,1,1,2
+145,Mohit Yadav,Microprocessors,6,6,6,1,17,2,0,1,0,1,0,1,2
+146,Bhavna Mittal,Microprocessors,14,14,14,2,4,0,1,0,2,3,1,1,1
+147,Tarun Chopra,Microprocessors,10,10,10,2,5,0,1,0,1,2,1,0,1
+148,Rashmi Nair,Microprocessors,14,14,14,3,2,0,1,0,2,2,1,1,1
+149,Utkarsh Srivastava,Microprocessors,16,16,16,3,3,0,1,0,4,4,1,1,1
+150,Alok Kashyap,Microprocessors,9,9,9,2,8,0,1,0,0,1,1,1,3
+101,Yagya,Data Structures & Algorithms,18,18,18,4,1,0,1,0,4,4,1,1,1
+102,Aman,Data Structures & Algorithms,17,17,17,3,2,0,1,0,4,3,1,1,1
+103,Adiya,Data Structures & Algorithms,16,16,16,4,1,0,1,0,4,4,1,1,1
+104,Aarav Sharma,Data Structures & Algorithms,15,15,15,3,2,0,1,0,4,4,0,1,2
+105,Priya Patel,Data Structures & Algorithms,9,9,9,1,12,1,1,1,2,0,0,1,3
+106,Rohan Verma,Data Structures & Algorithms,16,16,16,4,1,0,1,0,4,4,1,1,1
+107,Ananya Singh,Data Structures & Algorithms,13,13,13,2,4,0,1,0,2,4,1,1,1
+108,Vikram Malhotra,Data Structures & Algorithms,6,6,6,1,18,2,0,1,0,2,1,1,3
+109,Sneha Reddy,Data Structures & Algorithms,15,15,15,3,3,0,1,0,4,3,1,1,1
+110,Kabir Mehta,Data Structures & Algorithms,10,10,10,2,6,0,1,0,2,2,0,1,2
+111,Diya Sengupta,Data Structures & Algorithms,9,9,9,1,14,1,1,1,0,2,0,1,4
+112,Aditya Joshi,Data Structures & Algorithms,18,18,18,4,0,0,1,0,4,4,1,1,1
+113,Rhea Nair,Data Structures & Algorithms,12,12,12,2,5,0,1,0,2,4,1,1,1
+114,Sameer Khan,Data Structures & Algorithms,7,7,7,1,22,3,0,1,0,1,1,1,4
+115,Tanvi Deshmukh,Data Structures & Algorithms,13,13,13,3,3,0,1,0,4,2,1,1,1
+116,Arjun Kapoor,Data Structures & Algorithms,16,16,16,3,2,0,1,0,4,4,1,1,1
+117,Ishaan Gupta,Data Structures & Algorithms,15,15,15,3,4,0,1,0,2,3,1,1,2
+118,Meera Iyer,Data Structures & Algorithms,14,14,14,3,3,0,1,0,3,4,0,1,2
+119,Siddharth Rao,Data Structures & Algorithms,11,11,11,2,6,0,1,0,1,2,1,0,1
+120,Pooja Choudhury,Data Structures & Algorithms,12,12,12,2,7,0,1,0,4,4,1,1,1
+121,Nikhil Bansal,Data Structures & Algorithms,12,12,12,2,4,0,1,0,3,2,1,1,1
+122,Riya Sen,Data Structures & Algorithms,12,12,12,2,5,0,1,0,4,3,1,1,1
+123,Kunal Bhatia,Data Structures & Algorithms,10,10,10,1,11,1,1,0,3,1,1,1,2
+124,Neha Trivedi,Data Structures & Algorithms,15,15,15,4,2,0,1,0,2,4,1,1,1
+125,Varun Saxena,Data Structures & Algorithms,13,13,13,2,4,0,1,0,3,4,1,1,1
+126,Shreya Das,Data Structures & Algorithms,16,16,16,3,2,0,1,0,4,4,1,1,1
+127,Aryan Mishra,Data Structures & Algorithms,13,13,13,3,3,0,1,0,3,3,1,1,2
+128,Kriti Sanon,Data Structures & Algorithms,10,10,10,2,6,0,1,0,3,2,0,1,3
+129,Harsh Vardhan,Data Structures & Algorithms,8,8,8,1,19,2,0,1,0,2,1,1,3
+130,Simran Kaur,Data Structures & Algorithms,15,15,15,3,1,0,1,0,3,2,1,1,2
+131,Devansh Roy,Data Structures & Algorithms,13,13,13,2,5,0,1,0,2,3,1,1,1
+132,Anika Paul,Data Structures & Algorithms,15,15,15,3,3,0,1,0,4,3,1,1,2
+133,Gaurav Tiwari,Data Structures & Algorithms,9,9,9,2,8,0,1,0,1,0,0,0,2
+134,Divya Nambiar,Data Structures & Algorithms,18,18,18,4,1,0,1,0,4,4,1,1,1
+135,Ayush Khurana,Data Structures & Algorithms,13,13,13,2,6,0,1,0,3,4,1,1,1
+136,Trisha Bose,Data Structures & Algorithms,7,7,7,1,13,1,1,1,1,0,1,0,4
+137,Mayank Agarwal,Data Structures & Algorithms,14,14,14,3,4,0,1,0,2,3,0,1,2
+138,Pallavi Kulkarni,Data Structures & Algorithms,16,16,16,3,2,0,1,0,4,4,1,1,1
+139,Abhinav Pandey,Data Structures & Algorithms,10,10,10,2,5,0,1,0,2,1,1,1,3
+140,Sonali Jain,Data Structures & Algorithms,15,15,15,3,2,0,1,0,3,2,0,1,1
+141,Rohit Chawla,Data Structures & Algorithms,12,12,12,2,7,0,1,0,3,2,1,1,1
+142,Nandini Pillai,Data Structures & Algorithms,16,16,16,4,1,0,1,0,4,4,1,1,1
+143,Prateek Singhania,Data Structures & Algorithms,18,18,18,4,1,0,1,0,4,4,1,1,1
+144,Lavanya Swaminathan,Data Structures & Algorithms,15,15,15,3,3,0,1,0,3,3,0,1,1
+145,Mohit Yadav,Data Structures & Algorithms,5,5,5,1,17,2,0,1,2,2,0,0,3
+146,Bhavna Mittal,Data Structures & Algorithms,13,13,13,2,4,0,1,0,3,2,0,1,2
+147,Tarun Chopra,Data Structures & Algorithms,12,12,12,2,5,0,1,0,3,2,1,1,1
+148,Rashmi Nair,Data Structures & Algorithms,13,13,13,3,2,0,1,0,3,2,0,1,2
+149,Utkarsh Srivastava,Data Structures & Algorithms,15,15,15,3,3,0,1,0,2,3,1,1,1
+150,Alok Kashyap,Data Structures & Algorithms,11,11,11,2,8,0,1,0,1,2,1,1,1
