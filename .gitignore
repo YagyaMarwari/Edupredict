@@ -35,3 +35,6 @@ wheels/
 Thumbs.db
 *.bak
 *.tmp
+
+cloudflared.exe
+*.exe
