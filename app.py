@@ -10,6 +10,7 @@ from fastapi import FastAPI, HTTPException, UploadFile, File
 from fastapi.responses import HTMLResponse, FileResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
+from typing import Optional, List, Dict, Any
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(BASE_DIR)
@@ -543,6 +544,21 @@ class AddStudentRequest(BaseModel):
     schoolsup: int = 0
 
 
+class UpdateStudentOptionsRequest(BaseModel):
+    roll_no: str
+    subject: Optional[str] = None
+    studytime: int = 2
+    absences: int = 4
+    failures: int = 0
+    medu: int = 2
+    fedu: int = 2
+    traveltime: int = 1
+    internet: int = 1
+    schoolsup: int = 0
+    famsup: int = 1
+    higher: int = 1
+
+
 @app.get("/", response_class=HTMLResponse)
 def serve_home():
     """Serves the main interactive dashboard."""
@@ -928,6 +944,14 @@ def lookup_student_marks(identifier: str, subject: str = None):
     midterm = float(rec.get("G2", rec.get("g2", g1_val)))
     studytime = int(rec.get("studytime", 2))
     absences = int(rec.get("absences", 4))
+    failures = int(rec.get("failures", 0))
+    medu = int(rec.get("Medu", rec.get("medu", 2)))
+    fedu = int(rec.get("Fedu", rec.get("fedu", 2)))
+    traveltime = int(rec.get("traveltime", 1))
+    internet = int(1 if str(rec.get("internet", 1)).lower() in ["1", "true", "yes"] else 0)
+    schoolsup = int(1 if str(rec.get("schoolsup", 0)).lower() in ["1", "true", "yes"] else 0)
+    famsup = int(1 if str(rec.get("famsup", 1)).lower() in ["1", "true", "yes"] else 0)
+    higher = int(1 if str(rec.get("higher", 1)).lower() in ["1", "true", "yes"] else 0)
     subject_val = str(rec.get("subject", "Statistical Machine Learning"))
     raw_name = str(rec.get("student_name", f"Student #{rec.get('roll_no')}"))
 
@@ -941,7 +965,67 @@ def lookup_student_marks(identifier: str, subject: str = None):
         "g2": midterm,
         "studytime": studytime,
         "absences": absences,
+        "failures": failures,
+        "medu": medu,
+        "fedu": fedu,
+        "traveltime": traveltime,
+        "internet": internet,
+        "schoolsup": schoolsup,
+        "famsup": famsup,
+        "higher": higher,
         "total_subjects": len(matched)
+    }
+
+
+@app.post("/api/student/update")
+def update_student_options(req: UpdateStudentOptionsRequest):
+    """
+    Persistently saves student behavioral and background adjustments to active_class_roster.csv
+    so adjustments are never lost on tab switches, refreshes, or re-predictions.
+    """
+    active_path = os.path.join(BASE_DIR, "data", "active_class_roster.csv")
+    demo_path = os.path.join(BASE_DIR, "data", "sample_teacher_roster.csv")
+    roster_path = active_path if os.path.exists(active_path) else demo_path
+
+    if not os.path.exists(roster_path):
+        raise HTTPException(status_code=404, detail="No active class roster found.")
+
+    df = pd.read_csv(roster_path)
+    ident = str(req.roll_no).strip().lower()
+
+    # Find rows matching roll_no
+    match_mask = df["roll_no"].astype(str).str.strip().str.lower() == ident
+    if not match_mask.any():
+        # Try matching student_name
+        match_mask = df["student_name"].astype(str).str.strip().str.lower().str.contains(ident)
+
+    if not match_mask.any():
+        raise HTTPException(status_code=404, detail=f"Student Roll #{req.roll_no} not found in roster.")
+
+    # Update columns
+    df.loc[match_mask, "studytime"] = int(req.studytime)
+    df.loc[match_mask, "absences"] = int(req.absences)
+    df.loc[match_mask, "failures"] = int(req.failures)
+    df.loc[match_mask, "Medu"] = int(req.medu)
+    df.loc[match_mask, "Fedu"] = int(req.fedu)
+    df.loc[match_mask, "traveltime"] = int(req.traveltime)
+    df.loc[match_mask, "internet"] = int(req.internet)
+    df.loc[match_mask, "schoolsup"] = int(req.schoolsup)
+    df.loc[match_mask, "famsup"] = int(req.famsup)
+    df.loc[match_mask, "higher"] = int(req.higher)
+
+    # Save to disk
+    df.to_csv(active_path, index=False)
+    if os.path.exists(demo_path) and demo_path != active_path:
+        try:
+            df.to_csv(demo_path, index=False)
+        except Exception:
+            pass
+
+    return {
+        "success": True,
+        "message": f"Updated profile for Roll #{req.roll_no} in active roster.",
+        "updated_rows": int(match_mask.sum())
     }
 
 

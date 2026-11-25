@@ -731,7 +731,7 @@
             </button>
           </div>
 
-          <form id="predictionForm" class="space-y-5" onsubmit="event.preventDefault(); triggerPrediction();">
+          <form id="predictionForm" class="space-y-5" onsubmit="event.preventDefault(); onPredictFormSubmit();">
             <!-- Academic Course / Subject Selection -->
             <div>
               <label class="block text-xs font-semibold text-slate-600 uppercase tracking-wider mb-1.5">Academic Course / Subject</label>
@@ -905,7 +905,7 @@
                     <span>Mother's Education (Medu)</span>
                     <span id="medu_badge" class="text-[10px] font-semibold text-blue-600">Middle School</span>
                   </label>
-                  <select id="medu" onchange="triggerPrediction()" class="w-full text-xs font-semibold bg-white border border-slate-200 rounded-xl px-3 py-2 text-slate-800 focus:ring-2 focus:ring-blue-500 shadow-sm">
+                  <select id="medu" onchange="onOptionChange()" class="w-full text-xs font-semibold bg-white border border-slate-200 rounded-xl px-3 py-2 text-slate-800 focus:ring-2 focus:ring-blue-500 shadow-sm">
                     <option value="0">0: None (No Formal Schooling)</option>
                     <option value="1">1: Primary Education (4th Grade)</option>
                     <option value="2" selected>2: 5th to 9th Grade (Middle)</option>
@@ -919,7 +919,7 @@
                     <span>Father's Education (Fedu)</span>
                     <span id="fedu_badge" class="text-[10px] font-semibold text-blue-600">Middle School</span>
                   </label>
-                  <select id="fedu" onchange="triggerPrediction()" class="w-full text-xs font-semibold bg-white border border-slate-200 rounded-xl px-3 py-2 text-slate-800 focus:ring-2 focus:ring-blue-500 shadow-sm">
+                  <select id="fedu" onchange="onOptionChange()" class="w-full text-xs font-semibold bg-white border border-slate-200 rounded-xl px-3 py-2 text-slate-800 focus:ring-2 focus:ring-blue-500 shadow-sm">
                     <option value="0">0: None (No Formal Schooling)</option>
                     <option value="1">1: Primary Education (4th Grade)</option>
                     <option value="2" selected>2: 5th to 9th Grade (Middle)</option>
@@ -933,7 +933,7 @@
                     <span>Past Course Failures (Backlogs)</span>
                     <span id="failures_badge" class="text-[10px] font-semibold text-emerald-600">Clean Track</span>
                   </label>
-                  <select id="failures" onchange="triggerPrediction()" class="w-full text-xs font-semibold bg-white border border-slate-200 rounded-xl px-3 py-2 text-slate-800 focus:ring-2 focus:ring-blue-500 shadow-sm">
+                  <select id="failures" onchange="onOptionChange()" class="w-full text-xs font-semibold bg-white border border-slate-200 rounded-xl px-3 py-2 text-slate-800 focus:ring-2 focus:ring-blue-500 shadow-sm">
                     <option value="0" selected>0: No Past Backlogs (Clear Academic Track)</option>
                     <option value="1">1: 1 Past Backlog Course</option>
                     <option value="2">2: 2 Past Backlog Courses</option>
@@ -947,7 +947,7 @@
                     <span>Daily Campus Commute Time</span>
                     <span id="travel_badge" class="text-[10px] font-semibold text-blue-600">&lt; 15 mins</span>
                   </label>
-                  <select id="traveltime" onchange="triggerPrediction()" class="w-full text-xs font-semibold bg-white border border-slate-200 rounded-xl px-3 py-2 text-slate-800 focus:ring-2 focus:ring-blue-500 shadow-sm">
+                  <select id="traveltime" onchange="onOptionChange()" class="w-full text-xs font-semibold bg-white border border-slate-200 rounded-xl px-3 py-2 text-slate-800 focus:ring-2 focus:ring-blue-500 shadow-sm">
                     <option value="1" selected>1: &lt; 15 mins (Near Campus / Hostel)</option>
                     <option value="2">2: 15 to 30 mins (Moderate Commute)</option>
                     <option value="3">3: 30 to 60 mins (Extended Commute)</option>
@@ -961,7 +961,7 @@
                 <label class="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider mb-2">Learning Environment &amp; Support Systems</label>
                 <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
                   <label class="flex items-center space-x-2 p-2.5 bg-white border border-slate-200/90 rounded-xl cursor-pointer hover:border-sky-400 hover:-translate-y-0.5 hover:shadow-sm transition-all duration-200 shadow-2xs">
-                    <input type="checkbox" id="internet" checked onchange="triggerPrediction()" class="rounded text-blue-600 focus:ring-blue-500 h-4 w-4">
+                    <input type="checkbox" id="internet" checked onchange="onOptionChange()" class="rounded text-blue-600 focus:ring-blue-500 h-4 w-4">
                     <div class="leading-tight">
                       <span class="block text-[11px] font-bold text-slate-800">Home Wi-Fi</span>
                       <span class="text-[9px] text-slate-400">Digital Access</span>
@@ -969,7 +969,7 @@
                   </label>
 
                   <label class="flex items-center space-x-2 p-2.5 bg-white border border-slate-200/90 rounded-xl cursor-pointer hover:border-sky-400 hover:-translate-y-0.5 hover:shadow-sm transition-all duration-200 shadow-2xs">
-                    <input type="checkbox" id="schoolsup" onchange="triggerPrediction()" class="rounded text-blue-600 focus:ring-blue-500 h-4 w-4">
+                    <input type="checkbox" id="schoolsup" onchange="onOptionChange()" class="rounded text-blue-600 focus:ring-blue-500 h-4 w-4">
                     <div class="leading-tight">
                       <span class="block text-[11px] font-bold text-slate-800">Remedial Class</span>
                       <span class="text-[9px] text-slate-400">Extra Tutoring</span>
@@ -977,7 +977,7 @@
                   </label>
 
                   <label class="flex items-center space-x-2 p-2.5 bg-white border border-slate-200/90 rounded-xl cursor-pointer hover:border-sky-400 hover:-translate-y-0.5 hover:shadow-sm transition-all duration-200 shadow-2xs">
-                    <input type="checkbox" id="famsup" checked onchange="triggerPrediction()" class="rounded text-blue-600 focus:ring-blue-500 h-4 w-4">
+                    <input type="checkbox" id="famsup" checked onchange="onOptionChange()" class="rounded text-blue-600 focus:ring-blue-500 h-4 w-4">
                     <div class="leading-tight">
                       <span class="block text-[11px] font-bold text-slate-800">Family Support</span>
                       <span class="text-[9px] text-slate-400">Home Guidance</span>
@@ -985,7 +985,7 @@
                   </label>
 
                   <label class="flex items-center space-x-2 p-2.5 bg-white border border-slate-200/90 rounded-xl cursor-pointer hover:border-sky-400 hover:-translate-y-0.5 hover:shadow-sm transition-all duration-200 shadow-2xs">
-                    <input type="checkbox" id="higher" checked onchange="triggerPrediction()" class="rounded text-blue-600 focus:ring-blue-500 h-4 w-4">
+                    <input type="checkbox" id="higher" checked onchange="onOptionChange()" class="rounded text-blue-600 focus:ring-blue-500 h-4 w-4">
                     <div class="leading-tight">
                       <span class="block text-[11px] font-bold text-slate-800">Higher Ed Aim</span>
                       <span class="text-[9px] text-slate-400">Postgrad / Master</span>
@@ -999,6 +999,10 @@
               <i class="fa-solid fa-calculator"></i>
               <span>Predict End-Semester Grade</span>
             </button>
+            <div id="saveOptionsStatusPill" class="text-center text-xs font-semibold text-emerald-600 flex items-center justify-center space-x-1.5 transition-all opacity-0">
+              <i class="fa-solid fa-circle-check"></i>
+              <span id="saveOptionsStatusText">Options saved to student profile</span>
+            </div>
           </form>
         </div>
 
@@ -1402,7 +1406,10 @@
         initCharts();
       }
       if (tabId === 'predictor') {
-        initPredictorRoster();
+        const sel = document.getElementById('rosterStudentSelect');
+        if (!sel || !sel.options || sel.options.length <= 1) {
+          initPredictorRoster();
+        }
       }
       if (tabId === 'viva') {
         setTimeout(() => triggerMathRender(), 50);
@@ -1627,9 +1634,17 @@
     // Single Predictor Range & Roster Helpers
     let currentPredictorRoll = '101';
 
+    function updateRangeDisplayOnly(id, unit) {
+      const el = document.getElementById(id);
+      const valEl = document.getElementById(id + '_val');
+      if (el && valEl) {
+        valEl.innerText = el.value + unit;
+      }
+    }
+
     function updateRange(id, unit) {
-      document.getElementById(id + '_val').innerText = document.getElementById(id).value + unit;
-      triggerPrediction();
+      updateRangeDisplayOnly(id, unit);
+      onOptionChange();
     }
 
     async function initPredictorRoster() {
@@ -1714,12 +1729,12 @@
         if (student.studytime !== undefined) {
           const st = document.getElementById('studytime');
           if (st) st.value = student.studytime;
-          updateStudyTime();
+          updateStudyTimeDisplayOnly();
         }
         if (student.absences !== undefined) {
           const abs = document.getElementById('absences');
           if (abs) abs.value = student.absences;
-          updateRange('absences', ' days');
+          updateRangeDisplayOnly('absences', ' days');
         }
 
         // Update background features from teacher's records
@@ -1747,6 +1762,7 @@
         if (student.higher !== undefined && document.getElementById('higher')) {
           document.getElementById('higher').checked = (student.higher == 1 || student.higher === true || student.higher === 'yes');
         }
+        updateBadgeLabels();
 
         // Sync dropdown & roll input
         const sel = document.getElementById('rosterStudentSelect');
@@ -1769,16 +1785,129 @@
       }
     }
 
+    function updateStudyTimeDisplayOnly() {
+      const el = document.getElementById('studytime');
+      const valEl = document.getElementById('studytime_val');
+      if (el && valEl) {
+        const val = el.value;
+        const labels = {
+          '1': '1: (< 2 hrs)',
+          '2': '2: (2 to 5 hrs)',
+          '3': '3: (5 to 10 hrs)',
+          '4': '4: (> 10 hrs)'
+        };
+        valEl.innerText = labels[val] || val;
+      }
+    }
+
     function updateStudyTime() {
-      const val = document.getElementById('studytime').value;
-      const labels = {
-        '1': '1: (< 2 hrs)',
-        '2': '2: (2 to 5 hrs)',
-        '3': '3: (5 to 10 hrs)',
-        '4': '4: (> 10 hrs)'
-      };
-      document.getElementById('studytime_val').innerText = labels[val] || val;
+      updateStudyTimeDisplayOnly();
+      onOptionChange();
+    }
+
+    function updateBadgeLabels() {
+      const meduEl = document.getElementById('medu');
+      if (meduEl) {
+        const mLabels = { '0': 'No Schooling', '1': 'Primary (4th)', '2': 'Middle School', '3': 'High School', '4': 'Higher Ed' };
+        const b = document.getElementById('medu_badge');
+        if (b) b.innerText = mLabels[meduEl.value] || 'Middle School';
+      }
+      const feduEl = document.getElementById('fedu');
+      if (feduEl) {
+        const fLabels = { '0': 'No Schooling', '1': 'Primary (4th)', '2': 'Middle School', '3': 'High School', '4': 'Higher Ed' };
+        const b = document.getElementById('fedu_badge');
+        if (b) b.innerText = fLabels[feduEl.value] || 'Middle School';
+      }
+      const failEl = document.getElementById('failures');
+      if (failEl) {
+        const failLabels = { '0': 'Clean Track', '1': '1 Backlog', '2': '2 Backlogs', '3': '3 Backlogs', '4': '4+ Distress' };
+        const b = document.getElementById('failures_badge');
+        if (b) {
+          b.innerText = failLabels[failEl.value] || 'Clean Track';
+          b.className = failEl.value === '0' ? 'text-[10px] font-semibold text-emerald-600' : 'text-[10px] font-semibold text-rose-600';
+        }
+      }
+      const travelEl = document.getElementById('traveltime');
+      if (travelEl) {
+        const travelLabels = { '1': '< 15 mins', '2': '15 to 30 mins', '3': '30 to 60 mins', '4': '> 60 mins' };
+        const b = document.getElementById('travel_badge');
+        if (b) b.innerText = travelLabels[travelEl.value] || '< 15 mins';
+      }
+    }
+
+    let saveStatusTimeout = null;
+    function showSaveSuccessPill(msg = 'Options saved to student profile') {
+      const pill = document.getElementById('saveOptionsStatusPill');
+      const txt = document.getElementById('saveOptionsStatusText');
+      if (pill && txt) {
+        txt.innerText = msg;
+        pill.classList.remove('opacity-0');
+        if (saveStatusTimeout) clearTimeout(saveStatusTimeout);
+        saveStatusTimeout = setTimeout(() => {
+          pill.classList.add('opacity-0');
+        }, 4000);
+      }
+    }
+
+    async function saveStudentOptionsToBackend() {
+      const roll = currentPredictorRoll || '101';
+      const studyEl = document.getElementById('studytime');
+      const absEl = document.getElementById('absences');
+      if (!studyEl || !absEl) return;
+
+      const studytime = parseInt(studyEl.value);
+      const absences = parseInt(absEl.value);
+      const failures = document.getElementById('failures') ? parseInt(document.getElementById('failures').value) : 0;
+      const medu = document.getElementById('medu') ? parseInt(document.getElementById('medu').value) : 2;
+      const fedu = document.getElementById('fedu') ? parseInt(document.getElementById('fedu').value) : 2;
+      const traveltime = document.getElementById('traveltime') ? parseInt(document.getElementById('traveltime').value) : 1;
+      const internet = document.getElementById('internet') ? (document.getElementById('internet').checked ? 1 : 0) : 1;
+      const schoolsup = document.getElementById('schoolsup') ? (document.getElementById('schoolsup').checked ? 1 : 0) : 0;
+      const famsup = document.getElementById('famsup') ? (document.getElementById('famsup').checked ? 1 : 0) : 1;
+      const higher = document.getElementById('higher') ? (document.getElementById('higher').checked ? 1 : 0) : 1;
+      const subject = document.getElementById('predictorSubject') ? document.getElementById('predictorSubject').value : 'Statistical Machine Learning';
+
+      try {
+        localStorage.setItem(edupredict_opts_, JSON.stringify({
+          studytime, absences, failures, medu, fedu, traveltime, internet, schoolsup, famsup, higher
+        }));
+      } catch (e) {}
+
+      try {
+        await fetch('/api/student/update', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            roll_no: roll,
+            subject: subject,
+            studytime: studytime,
+            absences: absences,
+            failures: failures,
+            medu: medu,
+            fedu: fedu,
+            traveltime: traveltime,
+            internet: internet,
+            schoolsup: schoolsup,
+            famsup: famsup,
+            higher: higher
+          })
+        });
+      } catch (err) {
+        console.warn('Auto-save network error:', err);
+      }
+    }
+
+    function onOptionChange() {
+      updateBadgeLabels();
+      saveStudentOptionsToBackend();
       triggerPrediction();
+      showSaveSuccessPill(✓ Auto-saved choices for Roll #);
+    }
+
+    async function onPredictFormSubmit() {
+      await saveStudentOptionsToBackend();
+      await triggerPrediction();
+      showSaveSuccessPill(✓ Profile permanently saved & predicted for Roll #!);
     }
 
     function resetDefaults() {
